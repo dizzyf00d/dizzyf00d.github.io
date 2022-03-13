@@ -3,7 +3,7 @@ layout: post
 title: Valve’s Gamescope
 description: Valve’s Gamescope the Micro-Compositor Revolutionizing Gaming
 summary: A blog post about Valve’s Gamescope, the Micro-Compositor Revolutionizing Gaming.
-tags: linux wayland valve
+tags: linux wayland x11 valve
 ---
 
 # Valve’s Gamescope: The Micro-Compositor Revolutionizing Gaming
