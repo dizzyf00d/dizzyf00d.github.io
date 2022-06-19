@@ -1,5 +1,5 @@
-site: Dizzy F00d
-title: Dizzy F00d
+site: dizzy f00d
+title: dizzy f00d
 greetings: Hi 👋
 description: >-
   just a minimalist, personal blog
@@ -8,6 +8,7 @@ timezone:  Europe/London
 repo: # https://github.com/dizzyf00d/dizzyf00d.github.io # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
 discus-identifier: # replace with your disqus shortname
+
 
 author:
   name: dizzy f00d
@@ -18,13 +19,16 @@ author:
   twitter: dizzyf00d # twitter username
   email: dizzyf00d@mail.com # email address
 
+
 # Font Settings
 googlewebfonts: family=Play:wght@400;700&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,900
+
 
 # URL settings
 url: "https://dizzyf00d.github.io" # Domain Name of host. [username].github.io for github pages
 baseurl: "/" # sub folder for jekyll site. only if jekyll site is not in the root of the host. always add / in front.
 permalink: pretty
+
 
 # local
 url: "http://localhost:4000"
@@ -43,21 +47,23 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE.md
-  - README.md
-  - CONTRIBUTING.md
   
+
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
+
 
 sass:
   sass_dir: _sass
   style: compressed
 
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-relative-links
+
 
 collections:
   pages:
@@ -67,6 +73,7 @@ collections:
     output: true
     permalink: /:year/:month/:day/:slug
   
+
 defaults:
   -
     scope:
@@ -85,6 +92,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
 
 relative_links:
   enabled:     true
