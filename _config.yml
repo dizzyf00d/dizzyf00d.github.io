@@ -31,8 +31,8 @@ permalink: pretty
 
 
 # local
-url: "http://localhost:4000"
-baseurl: ""
+# url: "http://localhost:4000"
+# baseurl: ""
 
 
 markdown: kramdown
