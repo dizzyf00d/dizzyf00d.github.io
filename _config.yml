@@ -12,8 +12,7 @@ discus-identifier: # replace with your disqus shortname
 
 author:
   name: dizzy f00d
-  bio: just a minimalist, personal blog
-  userpicture: 
+  bio: personal blog
   username: dizzyf00d # general username
   github: dizzyf00d # github username
   twitter: dizzyf00d # twitter username
@@ -31,8 +30,8 @@ permalink: pretty
 
 
 # local
-# url: "http://localhost:4000"
-# baseurl: ""
+#url: "http://localhost:4000"
+#baseurl: ""
 
 
 markdown: kramdown

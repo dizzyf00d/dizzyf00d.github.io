@@ -3,9 +3,9 @@
   "lockfileVersion": 1,
   "dependencies": {
     "fuzzysearch": {
-      "integrity": "sha1-3/yA9tawQiPyImqnndGUIxCW0Ag=",
+      "version": "1.0.3",
       "resolved": "https://registry.npmjs.org/fuzzysearch/-/fuzzysearch-1.0.3.tgz",
-      "version": "1.0.3"
+      "integrity": "sha1-3/yA9tawQiPyImqnndGUIxCW0Ag="
     },
     "simple-jekyll-search": "^1.9.2"
   }
