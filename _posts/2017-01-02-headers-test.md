@@ -10,7 +10,6 @@ minute: 1
 # Headers Test
 This page tests jekyll headers
 
-
 # Header 1
 This largest header
 
