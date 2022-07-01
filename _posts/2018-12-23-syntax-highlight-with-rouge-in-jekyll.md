@@ -5,7 +5,6 @@ description: Enable syntax highlighting in your site
 summary: Enable syntax highlighting in your site.
 comments: true
 tags: jekyll coding
-minute: 1
 ---
 
 ``` js
