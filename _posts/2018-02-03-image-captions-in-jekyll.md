@@ -4,7 +4,6 @@ title: Image caption in Jekyll
 description: Using an image caption in Jekyll
 summary: Using an image caption in Jekyll.
 tags: jekyll coding
-minute: 1
 ---
 
 ![](https://images.unsplash.com/photo-1573481193569-c00872fb99fb?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=k-mitch-hodge-yTVqCMI2yPY-unsplash.jpg&w=2400)

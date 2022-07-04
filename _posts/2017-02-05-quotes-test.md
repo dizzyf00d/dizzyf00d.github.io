@@ -4,7 +4,6 @@ title: Quotes In Jekyll
 description: This is how quotes look in jekyll
 summary: This is how jekyll quotes looks.
 tags: quotes jekyll
-minute: 2
 ---
 
 Normal Text

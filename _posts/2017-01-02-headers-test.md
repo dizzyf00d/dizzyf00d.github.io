@@ -4,7 +4,6 @@ title: Jejkyll Headers
 description: This is page to test jekyll headers
 summary: This page tests jekyll headers.
 tags: headers jekyll css
-minute: 1
 ---
 
 # Headers Test
