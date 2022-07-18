@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Steam Deck: A New Era of Portable Gaming
+title: The Steam Deck - A New Era of Portable Gaming
 description: What is a Steam Deck.
 summary: What is a Steam Deck.
 tags: steam
