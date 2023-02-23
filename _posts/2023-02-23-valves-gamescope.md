@@ -37,9 +37,9 @@ The -e flag tells Gamescope to enable Steam Integration.
   ```gamescope -e -- steam -tenfoot -steamos```
 
 * **Keyboard shortcuts**: There are several keyboard shortcuts available in Gamescope:
-  ```Super + F```: Toggle fullscreen.
-  ```Super + N```: Toggle nearest neighbour filtering.
-  ```Super + U```: Toggle FSR upscaling.
-  ```Super + Y```: Toggle NIS upscaling.
+  * ```Super + F```: Toggle fullscreen.
+  * ```Super + N```: Toggle nearest neighbour filtering.
+  * ```Super + U```: Toggle FSR upscaling.
+  * ```Super + Y```: Toggle NIS upscaling.
 
 Please note that these commands should be run in a terminal or command line interface.
