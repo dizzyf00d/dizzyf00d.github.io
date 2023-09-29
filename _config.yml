@@ -2,7 +2,7 @@ site: dizzy f00d
 title: dizzy f00d
 greetings: Hi 👋
 description: >-
-  just a minimalist, personal blog
+  a minimalist personal blog
 lang: en-GB
 timezone:  Europe/London
 repo: # https://github.com/dizzyf00d/dizzyf00d.github.io # site repo [optional]
@@ -16,7 +16,7 @@ author:
   username: dizzyf00d # general username
   github: dizzyf00d # github username
   twitter: dizzyf00d # twitter username
-  email: dizzyf00d@mail.com # email address
+  email: # email address
 
 
 # Font Settings
