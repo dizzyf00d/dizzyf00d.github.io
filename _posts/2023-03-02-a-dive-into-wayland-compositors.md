@@ -1,12 +1,11 @@
 ---
 layout: post
-title: A Deep Dive into Wayland Compositors
+title: A Dive into Wayland Compositors
 description: What are Wayland Compositors
 summary: A blog post to inform users on what Wayland Compositors are.
 tags: linux wayland
 ---
 
-# A Deep Dive into Wayland Compositors
 Wayland is a communication protocol that specifies the interaction between a display server and its clients. A display server using the Wayland protocol is known as a Wayland compositor, as it also performs the task of a compositing window manager.
 
 ## Top Wayland Compositors

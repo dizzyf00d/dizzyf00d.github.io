@@ -1,12 +1,11 @@
 ---
 layout: post
-title: What is Linux Swap and When to use it.
+title: What is Linux Swap?
 description: What is Linux Swap and When to use it.
 summary: A blog post to inform users on what Linux Swap is, and when they should use it.
 tags: linux
 ---
 
-# Why Use Linux Swap?
 Linux Swap is a space on your hard drive that the Linux operating system can use as virtual memory when the system runs out of physical memory (RAM). Here are some reasons why you might want to use Linux Swap:
 
 ## 1. Memory Management
@@ -21,7 +20,7 @@ If you want to use the hibernate feature in Linux (where the system state is wri
 ## 4. Cost-Effective
 Adding more physical memory (RAM) can be expensive, especially for older computers. Using swap space is a cost-effective way to increase the amount of available memory.
 
-# When To Use Linux Swap?
+## When To Use Linux Swap?
 Imagine you’re processing a large dataset for a machine learning model. This operation requires more memory than your system’s RAM can provide. Without swap space, your system might run out of memory and crash, interrupting your operation.
 
 However, if you have swap space configured, the Linux kernel can move some less important data from the RAM to the swap space. This process is known as ‘swapping’ and it frees up RAM for your data processing operation.

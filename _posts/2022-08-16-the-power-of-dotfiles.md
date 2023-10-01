@@ -1,12 +1,11 @@
 ---
 layout: post
-title: What are Dotfiles?
+title: The Power of Dotfiles
 description: What are Dotfiles.
 summary: A blog post to inform users on what Dotfiles are.
 tags: linux
 ---
 
-# The Power of Dotfiles: Why You Should Use Them
 Dotfiles are hidden Unix files that start with a dot, and they are key to customizing your system. Here are some reasons why you should use them:
 
 ## 1. Personalization

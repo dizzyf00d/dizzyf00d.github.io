@@ -1,12 +1,11 @@
 ---
 layout: post
-title: Snaps, crackle and pop!
+title: The Hate Around Snaps Packages
 description: Why linux users hate Snaps.
 summary: A blog posts that goes through the many reasons why linux users dislike the Snap package format.
 tags: linux snaps canonical
 ---
 
-# Snaps, crackle and pop!
 Snaps, a method of packaging and distributing software, have been a topic of heated debate in the Linux community. While some users appreciate the universal application platform that Snaps provide, many others have expressed their discontent.
 
 ## Proprietary Backend

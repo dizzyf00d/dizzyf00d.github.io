@@ -54,30 +54,11 @@ layout: compress
       <i class="fa-brands fa-mastodon" aria-hidden="true"></i></a>
 
     <a href="https://twitter.com/dizzyf00d" title="Twitter" target="_blank" rel="noopener noreferrer">
-      <i class="fa-brands fa-twitter" aria-hidden="true"></i></a>    
-<!--    
-    <a href="https://steamcommunity.com/id/dizzyf00d" title="Steam" target="_blank" rel="noopener noreferrer">
-      <i class="fa-brands fa-steam" aria-hidden="true"></i></a>
+      <i class="fa-brands fa-twitter" aria-hidden="true"></i></a>
 
-    <a href="https://github.com/dizzyf00d/dizzyf00d.github.io" title="Browse the code" target="_blank" rel="noopener noreferrer">
-      <i class="fa-solid fa-code" aria-hidden="true"></i></a>
--->
+    <a href="mailto:dizzyf00d@outlook.com" title="E-mail" target="_blank" rel="noopener noreferrer">
+        <i class="fa-solid fa-envelope" aria-hidden="true"></i></a> 
   </div>
 </footer>
-
-{% if page.url == '/' %}
-  <script src="{{ site.url }}{{ site.baseurl }}/assets/js/simple-jekyll-search.js"></script>
-  <script>
-    var sjs = SimpleJekyllSearch({
-      searchInput: document.getElementById('search-input'),
-      resultsContainer: document.getElementById('search-results'),
-		      json: '{{ site.url }}{{ site.baseurl }}/search.json',
-      searchResultTemplate: '<li><a href="{url}" title="{description}">{title}</a></li>',
-      noResultsText: 'No results found..',
-      limit: 10,
-      fuzzy: true,
-    })
-  </script>
-  {% endif %}
 
 </html>

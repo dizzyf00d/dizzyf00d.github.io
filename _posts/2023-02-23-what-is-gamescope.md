@@ -1,16 +1,12 @@
 ---
 layout: post
-title: Valve’s Gamescope
+title: What is Gamescope?
 description: Valve’s Gamescope the Micro-Compositor Revolutionizing Gaming
 summary: A blog post about Valve’s Gamescope, the Micro-Compositor Revolutionizing Gaming.
 tags: linux wayland x11 valve
 ---
 
-# Valve’s Gamescope: The Micro-Compositor Revolutionizing Gaming
-Valve’s Gamescope is a micro-compositor that has been making waves in the gaming industry. Born out of the former SteamCompMgr, Gamescope focuses on optimized game presentation with efficient Wayland usage and various optimizations to reduce frame latency.
-
-## What is Gamescope?
-Gamescope is a micro-compositor that was formerly known as steamcompmgr. It is designed to deliver the best gaming performance atop Wayland, including working as a nested compositor on a regular Linux desktop.
+Gamescope created by Valve is a micro-compositor that has been making waves in the gaming industry. Born out of the former SteamCompMgr, Gamescope focuses on optimized game presentation with efficient Wayland usage and various optimizations to reduce frame latency.
 
 ## How does it work?
 Gamescope gets game frames through Wayland by way of Xwayland, so there’s no copy within X itself before it gets the frame. It can use DRM/KMS to directly flip game frames to the screen, even when stretching or when notifications are up, removing another copy. When it does need to composite with the GPU, it does so with async Vulkan compute, meaning you get to see your frame quick even if the game already has the GPU busy with the next frame.

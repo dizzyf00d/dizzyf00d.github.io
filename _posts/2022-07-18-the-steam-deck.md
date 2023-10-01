@@ -1,12 +1,11 @@
 ---
 layout: post
-title: The Steam Deck - A New Era of Portable Gaming
+title: The Steam Deck
 description: What is a Steam Deck.
 summary: What is a Steam Deck.
 tags: steam
 ---
 
-# The Steam Deck: A New Era of Portable Gaming
 The world of gaming is constantly evolving, with new technologies and platforms emerging all the time. One such innovation that has recently caught the attention of gamers worldwide is the Steam Deck. But what exactly is the Steam Deck, and why should you consider purchasing one? Let’s dive in.
 
 ## What is the Steam Deck?
@@ -18,7 +17,7 @@ One of the key features of the Steam Deck is its compatibility with your existin
 
 The device also boasts a range of storage options, from 64GB eMMC to 256GB and 512GB NVMe SSDs. All models come with a carrying case for easy and safe travel.
 
-# Why Should You Purchase One?
+## Why Should You Purchase One?
 There are several reasons why the Steam Deck could be an excellent addition to your gaming arsenal:
 
 ## Portability

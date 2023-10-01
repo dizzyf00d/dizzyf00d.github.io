@@ -1,13 +1,12 @@
 ---
 layout: post
-title: What are Immutable Linux Distributions
+title: What are Immutable Linux Distros?
 description: What are Immutable Linux Distributions
 summary: A blog post to inform users on what Immutable Linux Distributions are.
 tags: linux immutable distro
 ---
 
-# Embracing the Future with Immutable Linux Distributions
-In the ever-evolving world of technology, the concept of immutability has been gaining traction. This is particularly true in the realm of Linux distributions, where more projects are focusing on the immutability aspect as a core feature. But what exactly is an immutable Linux distribution, and why is it beneficial? Let’s delve into this fascinating topic.
+In the ever-evolving world of technology, the concept of immutability has been gaining traction. This is particularly true in the realm of Linux distributions (also called distros), where more projects are focusing on the immutability aspect as a core feature. But what exactly is an immutable Linux distribution, and why is it beneficial? Let’s delve into this fascinating topic.
 
 ## Understanding Immutability
 An immutable Linux distribution ensures that the operating system’s core remains unchanged. The root file system for an immutable distro remains read-only, making it possible to stay the same across multiple instances. While changes can be made if desired, this ability remains disabled by default.

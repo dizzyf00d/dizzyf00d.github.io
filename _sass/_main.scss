@@ -8,9 +8,11 @@
 	padding: 0;
 }
 
+
 html {
 	font-size: 15px;
 }
+
 
 #theme-toggle {
 	opacity: 0.65;
@@ -32,6 +34,7 @@ html {
 	transform: scale(0.8);
 }
 
+
 html,
 html[data-theme="light"] {
 	--text-font: Play;
@@ -46,8 +49,6 @@ html[data-theme="light"] {
 	--code-bg-color: rgb(245, 245, 245);
 
 	background-color: rgb(255, 255, 255);
-
-	
 
 	#theme-toggle div {
 		position: relative;
@@ -96,6 +97,7 @@ html[data-theme="light"] {
 		}
 	}
 }
+
 
 html[data-theme="dark"] {
 	--text-font: Play;
@@ -158,6 +160,7 @@ html[data-theme="dark"] {
 	}
 }
 
+
 body {
 	font-family: var(--text-font), monospace;
 	text-rendering: optimizeLegibility;
@@ -165,19 +168,23 @@ body {
 	color: var(--main-text-color);
 }
 
+
 a {
 	color: var(--link-color);
 	text-decoration: none;
 }
 
+
 .post p {
-	margin: 1rem 0;
+	margin: 1rem 0 2rem 0;
 }
+
 
 .meta {
-	margin: 1.4rem 0;
+	margin: 0 0 2.8rem 0;
 
 }
+
 
 code,
 pre {
@@ -186,6 +193,7 @@ pre {
 	border-width: 1px;
 }
 
+
 code {
 	font-family: var(--source-code-font), monospace;
 	margin: unset;
@@ -193,10 +201,12 @@ code {
 	color: var(--highlight-text-color);
 }
 
+
 pre code {
 	background-color: unset;
 	color: unset;
 }
+
 
 pre {
 	border-width: 3px;
@@ -206,9 +216,11 @@ pre {
 	border-color: var(--light-text-color);
 }
 
+
 img {
 	max-width: 100%;
 }
+
 
 hr {
 	background: var(--light-text-color);
@@ -216,15 +228,18 @@ hr {
 	border: 0;
 }
 
+
 header {
 	flex-basis: 10rem;
 	flex-grow: 1;
 	position: relative;
 }
 
+
 header a {
 	text-decoration: none;
 }
+
 
 header li {
 	margin-bottom: 0.2rem;
@@ -232,18 +247,22 @@ header li {
 	margin-right: 2rem;
 }
 
+
 header a.active {
 	font-weight: bold;
 }
+
 
 header,
 section {
 	padding: 1rem 0;
 }
 
+
 section {
 	margin-top: 5.5rem;
 }
+
 
 blockquote {
 	font-style: italic;
@@ -251,78 +270,94 @@ blockquote {
 	padding-left: 1rem;
 }
 
+
 h1 {
 	color: var(--main-text-color);
 	text-transform: uppercase;
 	font-size: 2rem;
 	font-weight: bold;
-	margin-bottom: 1.5rem;
+	margin-bottom: 0 0 1.5rem 0;
 }
+
 
 h2,
 h3,
 h4,
 h5 {
 	font-weight: bold;
-	margin-bottom: 1.5rem;
+	margin-bottom: 0 0 1.5rem 0;
 	font-size: 2rem;
 }
+
 
 h2 {
 	font-size: 1.8rem;
 }
 
+
 h3 {
 	font-size: 1.6rem;
 }
+
 
 h4 {
 	font-size: 1.4rem;
 }
 
+
 h5 {
 	font-size: 1.2rem;
 }
+
 
 h6 {
 	font-size: 1rem;
 }
 
+
 section h1:first-child {
 	margin-top: 0;
 }
+
 
 strong,
 b {
 	font-weight: bold;
 }
 
+
 .photos ul {
 	list-style: none;
 }
 
+
 .photos li {
 	margin-bottom: 1.5rem;
 }
+
 
 .photo picture,
 .project picture {
 	margin-bottom: 0.5rem;
 }
 
+
 .posts > h3 {
 	font-weight: 500;
 }
+
 
 .post ul {
 	margin: 0px;
 	margin: 0px 0px 10px 10px;
 }
 
+
 .post ol {
 	margin: 0px;
 	margin: 0px 0px 10px 15px;
 }
+
 
 .posts li {
 	align-items: center;
@@ -330,6 +365,7 @@ b {
 	justify-content: space-between;
 	margin-bottom: 0.5rem;
 }
+
 
 .posts li a,
 .posts li div,
@@ -340,6 +376,7 @@ b {
 	font-weight: bold;
 }
 
+
 .posts li time,
 .projects li time {
 	padding-left: 1rem;
@@ -347,24 +384,28 @@ b {
 	font-variant-numeric: tabular-nums;
 }
 
+
 time {
 	color: var(--main-text-color);
 }
 
+
 .post > h1.title {
-	font-size: x-large;
 	margin-top: 0;
 	margin-bottom: 0;
 }
+
 
 .post > time {
 	margin-bottom: 0;
 	margin-top: 3rem;
 }
 
+
 .highlight {
 	margin: 0px;
 }
+
 
 main {
 	display: flex;
@@ -381,17 +422,20 @@ main {
 	justify-content: space-between;
 }
 
+
 .social-footer {
-  padding: 1rem;
+  font-size: 20px;
+  padding: 4rem 0 2rem 0;
   display: flex;
   justify-content: center;
   position: initial;
 
   .social-footer-icons {
-     
-    .fa {
-      font-size: 1.3rem;
+    
+    .fa-brands, 
+    .fa-solid {
       color: #a9a9a9;
+      padding: 0 10px 10px 0;
 
       &:hover {
         color: darken(#a9a9a9, 25%);
@@ -401,18 +445,22 @@ main {
   }
 }
 
+
 @media screen and (max-width: 45rem) {
 	header li {
 		display: inline;
 		margin-right: 1rem;
 	}
+
 	.logo {
 		padding-bottom: 1rem;
 	}
+
 	header ul {
 		border-bottom: 1px solid #edf2f7;
 		padding-bottom: 2rem;
 	}
+
 	nav ul {
 		border-right: 0px;
 	}
@@ -427,15 +475,18 @@ main {
 
 }
 
+
 section {
 	flex-grow: 999;
 	display: flex;
 	flex-direction: column;
 }
 
+
 figcaption {
 	font-size: smaller;
 }
+
 
 .bio {
 	margin-bottom: 5rem;
@@ -444,57 +495,6 @@ figcaption {
 ::selection {
 background-color: #fffba0;
 color: #333;
-}
-
-
-.search-article {
-  position: relative;
- 
-
-  label[for="search-input"] {
-    position: relative;
-    top: -10px;
-    left: 11px;
-  }
-
-  input[type="search"] {
-    top: -1rem;
-    left: 0;
-    border: 0;
-    width: 100%;
-    height: 30px;
-    outline: none;
-    position: absolute;
-    border-radius: 5px;
-    padding: 10px 10px 10px 35px;
-    color: var(--main-text-color);
-    -webkit-appearance: none;
-    background-color: rgba(128, 128, 128, 0.1);
-    border: 1px solid rgba(128, 128, 128, 0.1);
-    &::-webkit-input-placeholder {
-      color: #808080;
-    }
-    &::-webkit-search-decoration,
-    &::-webkit-search-results-decoration {
-      display: none;
-    }
-  }
-}
-
-#search-results {
-
-  text-align: center;
-  li {
-    text-align: center;
-  }
-}
-
-#search-results li::before {
-	content: "›";
-	display: inline-block;
-	margin-left: -1.3em;
-	width: 1.3em;
-	color: var(--main-text-color);
 }
 
 .post-nav {
@@ -561,9 +561,8 @@ color: #333;
 	}
 
 
-  // ------------------------------------
+// ------------------------------------
 $link-color: var(--link-color);
-
 
 .timeline {
   position: center;
@@ -574,6 +573,7 @@ $link-color: var(--link-color);
   @media(max-width: 860px) {
     width: 100%;
   }
+
   &:before {
     position: absolute;
     left: 50%;
@@ -589,6 +589,7 @@ $link-color: var(--link-color);
       height: 150%;
     }
   }
+
   li {
     padding: 2em 0;
     @media(max-width: 860px) {
@@ -615,6 +616,7 @@ $link-color: var(--link-color);
     width: 100%;
     text-align: center;
   }
+
   .flag {
     color: #333;
     box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.52); // $color shadow
@@ -645,6 +647,7 @@ $link-color: var(--link-color);
       }
     }
   }
+
   .time-wrapper {
     float: left;
     @media(max-width: 860px) {
@@ -664,6 +667,7 @@ $link-color: var(--link-color);
     width: 100%;
     text-align: center;
   }
+
   .flag {
     color: #333;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.52); // $color shadow
@@ -693,10 +697,12 @@ $link-color: var(--link-color);
         pointer-events: none;
       }
     }
+
     &:before {
       left: -40px;
     }
   }
+  
   .time-wrapper {
     float: right;
     @media(max-width: 860px) {
@@ -705,6 +711,7 @@ $link-color: var(--link-color);
   }
 }
 
+
 .flag-wrapper {
   position: relative;
   display: inline-block;
@@ -712,6 +719,7 @@ $link-color: var(--link-color);
   @media(max-width: 860px) {
     text-align: center;
   }
+
   .flag {
     position: relative;
     display: inline;
@@ -726,6 +734,7 @@ $link-color: var(--link-color);
     }
   }
 }
+
 
 .direction-l .flag:before,
 .direction-r .flag:before {
@@ -752,7 +761,6 @@ $link-color: var(--link-color);
 }
 
 
-
 .time-wrapper {
   display: inline;
   line-height: 1em;
@@ -765,12 +773,14 @@ $link-color: var(--link-color);
     margin: 4px 0 0 0;
     z-index: 14;
   }
+
   .time {
     display: inline-block;
     padding: 4px 6px;
     background: rgb(248,248,248);
   }
 }
+
 
 .desc {
   margin: 1em 0.2em -3.5em 0;

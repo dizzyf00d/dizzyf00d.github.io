@@ -1,22 +1,21 @@
 site: dizzy f00d
-title: dizzy f00d
-greetings: Hi 👋
+title: dizzy f00d's blog
+greetings: Blog
 description: >-
-  a minimalist personal blog
+  Motto: Be neither arrogant nor impetuous, be unyielding; be strict with yourself and be lenient towards others.
 lang: en-GB
 timezone:  Europe/London
-repo: # https://github.com/dizzyf00d/dizzyf00d.github.io # site repo [optional]
+repo: https://github.com/dizzyf00d/dizzyf00d.github.io # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
-discus-identifier: # replace with your disqus shortname
 
 
 author:
   name: dizzy f00d
-  bio: personal blog
+  bio: blog
   username: dizzyf00d # general username
   github: dizzyf00d # github username
   twitter: dizzyf00d # twitter username
-  email: # email address
+  email: dizzyf00d@outlook.com # email address
 
 
 # Font Settings
@@ -30,8 +29,8 @@ permalink: pretty
 
 
 # local
-#url: "http://localhost:4000"
-#baseurl: ""
+url: "http://localhost:4000"
+baseurl: ""
 
 
 markdown: kramdown
@@ -46,7 +45,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE.md
-  
+
 
 compress_html:
   clippings: all
@@ -71,7 +70,7 @@ collections:
   posts:
     output: true
     permalink: /:year/:month/:day/:slug
-  
+
 
 defaults:
   -
@@ -96,5 +95,3 @@ defaults:
 relative_links:
   enabled:     true
   collections: false
-
-

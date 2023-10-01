@@ -6,7 +6,7 @@ summary: My reasons why I prefer to user a rolling release over a fixed one.
 tags: linux
 ---
 
-# Why a Rolling Release?
+## Why a Rolling Release?
 If you’re a Linux user, you’ve probably heard of the term “rolling release”. But what exactly does it mean and why should you consider it? Here are some reasons why a rolling release distribution might be the best choice for you.
 
 ## It's Always Up-to-Date

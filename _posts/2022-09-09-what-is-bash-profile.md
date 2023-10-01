@@ -6,7 +6,6 @@ summary: A blog post to inform users on what .bash_profile does.
 tags: linux
 ---
 
-# .bash_profile
 The `.bash_profile` is a script that runs whenever you start a new shell session, if you’re using Bash as your default shell. This file is located in your home directory and is used to configure your shell session. It can contain various commands to set environment variables, define functions, adjust the command prompt, set aliases, and more.
 
 It’s important to note that `.bash_profile` is only run for login shells (i.e., shells that are started when you log in to your system). For non-login shells, Bash runs `.bashrc` instead. Some users choose to source `.bashrc` from their `.bash_profile` to ensure that the same configurations are applied to both login and non-login shells.
